@@ -14,10 +14,10 @@ public class MoreStringFunctions03 {
 	
 		String s1="praffull";
 		String s2="Shailaja";
-		//0 for same, -1 if first is smaller, 1 if first is larger
+		//0 for same, -ve if first is smaller, +ve if first is larger
 		System.out.println(s1.compareTo(s2));
 		System.out.println(s2.compareTo(s1));
-		System.out.println(s1.compareTo(s1));
+		System.out.println(s1.compareTo("praffull"));
 	}
 
 }
