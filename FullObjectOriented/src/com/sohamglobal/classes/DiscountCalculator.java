@@ -6,7 +6,7 @@ public class DiscountCalculator {
 	
 	public DiscountCalculator()
 	{
-		discount=9;
+		discount=13;
 	}
 	
 	public void showBill(String custnm,double amount)
@@ -16,7 +16,7 @@ public class DiscountCalculator {
 		bill=amount-discamt;
 		System.out.println("Customer name : "+custnm);
 		System.out.println("Purchase amount :₹ "+amount);
-		System.out.println("Discount Percent :₹ "+discount);
+		System.out.println("Discount Percent :₹ "+discount+"%");
 		System.out.println("Discount amount :₹ "+discamt);
 		System.out.println("Bill :₹ "+bill);
 	}
