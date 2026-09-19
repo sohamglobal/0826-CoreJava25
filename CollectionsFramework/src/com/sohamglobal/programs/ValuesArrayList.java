@@ -16,8 +16,11 @@ public class ValuesArrayList {
 		names.add(null);
 		names.add("java");
 		names.remove(3);
+		names.set(0, "spring boot");
 		System.out.println(names);
 		System.out.println(names.contains("sharayu"));
+		
+		System.out.println(names);
 		
 		for(int i=0;i<names.size();i++)
 			System.out.println(names.get(i));
