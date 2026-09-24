@@ -1,6 +1,7 @@
 package com.sohamglobal.programs;
 
 import java.util.HashSet;
+import java.util.Iterator;
 
 public class TryHashSet {
 
@@ -20,7 +21,9 @@ public class TryHashSet {
 		//every value is stored as key and can't be duplicated
 		//PRESENT dummy object as a value
 		
-		
+		Iterator<String> iterator=hs.iterator();
+		while(iterator.hasNext())
+			System.out.println(iterator.next());
 		
 	}
 
