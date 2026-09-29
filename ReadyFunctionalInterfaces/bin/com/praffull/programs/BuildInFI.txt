@@ -1,0 +1,6 @@
+4 main built-in FI
+
+1] Predicate - test(t) - receives 1 object - returns boolean
+2] Function - apply(t,r) - receives 1 object - returns object
+3] Consumer - accept(t) - receives 1 object - returns nothing
+4] Supplier - get() - receives nothing - returns object
